@@ -1,0 +1,226 @@
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+.navber{
+    background: RGB(244, 67, 54);
+    padding: 13px 15px 13px 0px;
+}
+.navber ul{
+    display: flex;
+    list-style: none;
+}
+.navber a {
+    font-weight: 400;
+    color: white;
+    padding: 15px 20px;
+    font-size: 19px;
+    text-decoration: none;
+}
+.navber a:hover{
+    background: white;
+    color: black;
+}
+.navber a span{
+    color: black;
+    background: white;
+    padding: 13px 24px;
+}
+            
+.banner{
+    background: #F44336;
+    height: 86vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.banner h1{
+    font-size: 64px;
+    line-height: 96px;
+    margin: 16px;
+    font-weight: 400;
+    color: white;
+}
+.banner p{
+    font-size: 24px;
+    line-height: 36px;
+    margin: 24px 0px;
+    font-weight: 400;
+    color: white;
+    font-family: lato;
+}
+.banner a{
+    display: inline-block;
+    font-size: 18px;
+    line-height: 27px;
+    margin: 16px 0px;
+    font-weight: 400;
+    color: white;
+    background: black;
+    padding: 12px 24px;
+    text-decoration: none;
+}
+.banner a:hover{
+    color: black;
+    background: RGB(204, 204, 204);
+}
+.navber ul li .active{
+    background: white;
+    color: black;
+}
+.a1 a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 400;
+    
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+}
+.a1 a span{
+    background: black;
+    padding: 14.5px 24px;
+    
+}
+.mainp{
+    display: flex;
+    gap: 35px;
+    padding: 90px 160px 90px 150px;
+    
+}
+.p1{
+    width: 70%;
+}
+.p2{
+    width: 30%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.p1 h2{
+    font-family: Montserrat;
+    font-size: 35px;
+    padding-bottom: 45px;
+    font-weight: 400;
+    
+}
+.p1 h4{
+    font-family: Lato;
+    font-size: 18px;
+    line-height: 27px;
+    padding-bottom: 45px;
+    font-weight: 400;
+    
+}
+.p1 p{
+    font-family: Lato;
+    font-size: 15px;
+    font-weight: 400;
+    color: gray;
+    line-height: 22px;
+}
+.p2 i{
+    color: red;
+    font-size: 175px;
+    padding-bottom: 30px;
+    
+}
+.mainq{
+    display: flex;
+    gap: 40px;
+    padding: 85px 145px 85px 170px;
+    background: RGB(241, 241, 241);
+    
+}
+.q1{
+    width: 70%;
+}
+.q2{
+    width: 30%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.q1 h2{
+    font-family: Montserrat;
+    font-size: 34px;
+    padding-bottom: 45px;
+    font-weight: 400;
+    
+}
+.q1 h4{
+    font-family: Lato;
+    font-size: 18px;
+    line-height: 27px;
+    padding-bottom: 45px;
+    font-weight: 400;
+    
+}
+.q1 p{
+    font-family: Lato;
+    font-size: 15px;
+    font-weight: 400;
+    color: gray;
+    line-height: 22px;
+}
+.q2 i{
+    color: RGB(244, 67, 54);
+    font-size: 175px;
+    padding-bottom: 32px;
+    
+}
+.mainr{
+    background: gray;
+    padding: 64px 16px;
+    
+}
+.mainr h2{
+    color: white;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 400;
+    text-align: center;
+    
+}
+
+                .mains{
+                    text-align: center;
+                    background: white;
+                    padding: 99px 16px 27px 16px;
+                }
+                .mains i{
+                    font-size: 24px;
+                }
+                .maint{
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    color: white;
+                    background: white;
+                    padding: 27px 16px 81px 16px;
+                }
+                .maint a{
+                    font-family: Lato;
+                    font-size: 15px;
+                    color: gray;
+                    padding-left: 3px;
+                }
+                .maint h2{
+                    font-family: Lato;
+                    font-weight: 400;
+                    font-size: 15px;
+                    color: gray;
+                }
+                .mains i{
+                    opacity: .6;
+                }
+                .mains i:hover{
+                    opacity: .4;
+                }
+                
